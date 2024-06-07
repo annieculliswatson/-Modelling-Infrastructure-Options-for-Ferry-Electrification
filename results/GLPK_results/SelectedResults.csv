@@ -1,0 +1,21 @@
+
+Summary,REG1
+
+Annual Production (Energy Units)
+,REG1
+Technology,Fuel,2023
+GRID,EL01,11957.1
+
+
+Annual Use (Energy Units)
+,REG1
+Technology,Fuel,2023
+GRID,EL01,0
+
+Annual Emissions (Emissions Units)
+,REG1
+,,2023
+
+Annual Emissions by Technology (Emissions Units)
+,REG1
+Technology,Emission,2023

@@ -1,0 +1,5 @@
+unit_dictioary:
+  capacity : MW
+  energy: MWh
+  cost: million CAD
+  

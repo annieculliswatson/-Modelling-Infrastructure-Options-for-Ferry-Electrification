@@ -1,0 +1,16 @@
+# Version, Description
+
+current_run: C_5.1
+
+scenario_version:
+ A : '1 ferry operating on route 2 from Horseshoe Bay'
+ B : 'All ferries operating on route 2 from Horseshoe Bay'
+ C : 'All ferries operating from Horseshoe Bay'
+
+topology_version:
+  1.1 : 'T1 - Grid Only'
+  2.1 : 'T2 - Terminal Storag'
+  3.1 : 'T3 - RORO'
+  4.1 : 'T4 - 50/50 RORO with grid'
+  4.2 : 'T4 - 70/30 RORO with grid'
+  5.1 : 'T5 - Electroliser'

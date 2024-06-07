@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d10" for="edge" attr.name="xlabel" attr.type="string" />
+  <key id="d9" for="edge" attr.name="Demand" attr.type="double" />
+  <key id="d8" for="edge" attr.name="dir" attr.type="string" />
+  <key id="d7" for="edge" attr.name="output_ratio" attr.type="double" />
+  <key id="d6" for="node" attr.name="width" attr.type="double" />
+  <key id="d5" for="node" attr.name="height" attr.type="double" />
+  <key id="d4" for="node" attr.name="label" attr.type="string" />
+  <key id="d3" for="node" attr.name="style" attr.type="string" />
+  <key id="d2" for="node" attr.name="shape" attr.type="string" />
+  <key id="d1" for="node" attr.name="fillcolor" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="GRID">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">GRID</data>
+    </node>
+    <node id="EL01">
+      <data key="d0">fuel</data>
+      <data key="d3">filled</data>
+      <data key="d2">circle</data>
+      <data key="d5">0.1</data>
+      <data key="d6">0.1</data>
+      <data key="d4" />
+    </node>
+    <node id="AnnualDemand">
+      <data key="d0">demand</data>
+      <data key="d1">green</data>
+      <data key="d4">AccumulatedAnnualDemand</data>
+      <data key="d3">filled</data>
+    </node>
+    <edge source="GRID" target="EL01">
+      <data key="d7">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="EL01" target="AnnualDemand">
+      <data key="d9">11957.1</data>
+      <data key="d10">EL01</data>
+    </edge>
+  </graph>
+</graphml>

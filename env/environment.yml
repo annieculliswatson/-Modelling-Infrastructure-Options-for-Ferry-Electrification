@@ -1,0 +1,20 @@
+name: bc_ferries
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+
+  - coin-or-cbc
+  - python=3.12.2
+  - pip
+  - pip:
+      - clewsy==0.2.2
+      - networkx==3.2.1
+      - numpy==1.26.4
+      - otoole==1.1.2
+      - pandas==2.0.3
+      - graphviz==0.20.2
+      - plotly==5.20.0
+      - nbformat>=4.2.0
+
+prefix: /home/eliasinul/miniconda3/envs/bc_ferries
